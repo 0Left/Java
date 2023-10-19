@@ -1,0 +1,24 @@
+Basic 
+-nome
+-anoDeLancamento
+ 
+BasicInfos : Basic
+-nome
+-anoDeLancamento
+-avaliacao
+-genero
+
+Filme : BasicInfos
+-duracaoEmMinutos
+-dataDeLancamento
+
+Serie : BasicInfos
+-Temporadas <Temporada>
+-anoDeEncerramento
+-duracaoMediaEmMinutos
+
+Temporada : Basic
+-Episodios <Episodio>
+
+Episodio : Filme
+

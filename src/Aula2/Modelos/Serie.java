@@ -1,9 +1,12 @@
 package Aula2.Modelos;
 
-public class Serie extends Filme {
+import java.util.ArrayList;
 
-    public Serie(int duracaoEmMinutos, String nome, int anoDeLancamento, int avaliacao) {
+public class Serie extends Filme {
+    ArrayList<Episodio> episodios = new ArrayList<>();
+    public Serie(int duracaoEmMinutos, String nome, int anoDeLancamento, int avaliacao, ArrayList<Episodio> episodios) {
         super(duracaoEmMinutos, nome, anoDeLancamento, avaliacao);
-        //TODO Auto-generated constructor stub
+        this.episodios = episodios;
     }
+
 }
