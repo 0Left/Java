@@ -2,6 +2,7 @@ package Aula2;
 
 import java.util.ArrayList;
 
+import Aula2.Modelos.Episodio;
 import Aula2.Modelos.Filme;
 
 public class Main {
@@ -12,6 +13,8 @@ public class Main {
         listaDeFilmes.add(filme1);
         listaDeFilmes.add(filme2);
         System.out.println(listaDeFilmes);
+        System.out.println(listaDeFilmes.size());
+
     }
 }
 

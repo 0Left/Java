@@ -37,6 +37,9 @@ public class Filme {
     public void setAvaliacao(int avaliacao) {
         this.avaliacao = avaliacao;
     }
-
+    @Override
+    public String toString() {
+        return "Filme [nome=" + nome + ", duracaoEmMinutos=" + duracaoEmMinutos + "]";
+    }
     
 }
