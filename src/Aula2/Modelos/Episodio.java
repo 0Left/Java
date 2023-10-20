@@ -1,6 +1,6 @@
 package Aula2.Modelos;
 
 public class Episodio {
-    public String nomeDoEpisodio;
+    String nomeDoEpisodio;
     int numeroDoEpisodio;
 }
