@@ -1,9 +1,13 @@
 package Aula2.Modelos;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Filme {
     
+    @SerializedName("Title")
     String nome;
     int duracaoEmMinutos;
+    @SerializedName("Year")
     int anoDeLancamento;
     int avaliacao;
     
